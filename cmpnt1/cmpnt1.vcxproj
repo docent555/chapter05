@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CHAP05\CMPNT1.CPP" />
+    <ClCompile Include="..\CHAP05\GUIDS.CPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CHAP05\IFACE.H" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -134,13 +141,6 @@
       <EnableUAC>false</EnableUAC>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\CHAP05\IFACE.H" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\CHAP05\CMPNT1.CPP" />
-    <ClCompile Include="..\..\CHAP05\GUIDS.CPP" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

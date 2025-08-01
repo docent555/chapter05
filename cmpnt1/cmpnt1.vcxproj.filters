@@ -15,16 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\CHAP05\IFACE.H">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="..\CHAP05\CMPNT1.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CHAP05\GUIDS.CPP">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\CHAP05\CMPNT1.CPP">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\CHAP05\GUIDS.CPP">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="..\CHAP05\IFACE.H">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

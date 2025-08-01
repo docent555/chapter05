@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\CHAP05\CMPNT2.CPP" />
-    <ClCompile Include="..\..\CHAP05\GUIDS.CPP" />
+    <ClInclude Include="..\CHAP05\IFACE.H" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\CHAP05\IFACE.H" />
+    <ClCompile Include="..\CHAP05\CMPNT2.CPP" />
+    <ClCompile Include="..\CHAP05\GUIDS.CPP" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
